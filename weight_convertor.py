@@ -1,0 +1,13 @@
+weight = int(input("Weight: "))
+measure = print("Type 'K' if Kg or 'L'if Lbs")
+unit = input("(K)g or (L)bs: ")
+
+if unit == "L":
+    weight_in_kg = weight / 2.2
+    print("Weight in Kg: " + (weight_in_kg))
+elif unit == "K":
+    weight_in_lbs = weight * 2.2
+    print("Weight in Lbs: " + (weight_in_lbs))
+else:
+    print("Cannot convert weight")
+          
